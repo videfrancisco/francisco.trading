@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "francisco.trading",
+  "name": "Trading",
+  "version": "1.2.0",
+  "author": "Francisco",
+  "license": "MIT",
+  "description": "BUY and SELL buttons that jump to the active trading platform and click its calibrated position (TradingView, Profit, Rocket Trader or any other). Panels show pulsing circles over saved positions.",
+  "homepage": "",
+  "repository": "",
+  "keywords": [
+    "trading",
+    "orders",
+    "buy",
+    "sell",
+    "tradingview",
+    "calibration"
+  ],
+  "kinds": [
+    "bar-widget",
+    "panel"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Trading",
+    "description": "One-click BUY and SELL on the active platform",
+    "category": "Utilities",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
